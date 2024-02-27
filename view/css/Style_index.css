@@ -140,6 +140,14 @@ h1{
 
 /*MENU RESPONSIVIDADE*/
 @media(max-width:999px){
+    header{
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        width: 100%;
+        margin-top: -50px;
+    }
+
     .cards img{
         width:260px;
     }
@@ -157,11 +165,6 @@ h1{
         overflow-x: hidden;
     }
 
-    header{
-        display: flex;
-        justify-content: space-around;
-    }
-
     header ul{
         position: absolute;
         display: flex;
@@ -172,8 +175,8 @@ h1{
         right: 0;
         width: 45vw;
         height: 83vh;
-        background-color:rgb(235, 187, 28);
-        transform: translateX(100%);
+        background-color:rgb(28, 235, 38);
+        transform: translateY(-120%);
         transition: all 0.3s ease-in;
     }
 

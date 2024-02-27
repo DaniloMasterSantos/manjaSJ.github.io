@@ -37,8 +37,8 @@ class HeaderUl{
 
 const headerUl = new HeaderUl(
     ".icon-menu",
-    "ul",
-    "ul li",
+    ".list-header",
+    ".list-header li",
 );
 
 headerUl.init();
