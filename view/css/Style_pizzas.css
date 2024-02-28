@@ -92,57 +92,10 @@ header .icons-header i:hover{
     margin: 8px;
 }
 
-/*TÍTULOS DE MAIS PEDIDOS*/
-h1{
-    font-family: 'Comfortaa';
-    text-align: center;
-    color: rgb(37, 37, 43);
-    margin-top: 50px;
+/*BANNER E LISTA DE SABORES*/
+.banner{
+    width: 100%;
 }
-
-/*CARDS DOS MAIS PEDIDOS*/
-.box-cards{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: space-around;
-    flex-wrap: wrap;
-}
-
-.cards{
-    margin: 20px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-around;
-    font-family: 'Montserrat';
-    height: 380px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    box-shadow: 0px 0px 8px 0px;
-    background-color: white;
-}
-
-.cards img{
-    width:270px;
-}
-
-.cards a{
-    background-color: rgb(216, 13, 13);
-    color: white;
-    width: 100px;
-    text-decoration: none;
-    border-radius: 3px;
-    padding: 7px;
-    margin-bottom: 10px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.cards a:hover{
-    background-color: rgba(206, 23, 23, 0.884);
-}
-
 
 /*MENU RESPONSIVIDADE*/
 @media(max-width:999px){
@@ -159,17 +112,8 @@ h1{
         top: 0px;
     }
 
-    .cards img{
-        width:260px;
-    }
-
     h1{
         font-size: 27px;
-    }
-
-    .cards{
-        height:370px;
-
     }
 
     body{
