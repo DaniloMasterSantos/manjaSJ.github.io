@@ -18,7 +18,7 @@
         </div>
         <ul class="list-header">
             <li><a href="">Pizzas</a></li>
-            <li><a href="">Esfihas</a></li>
+            <li><a href="teste.php">Esfihas</a></li>
             <li><a href="">Beirutes</a></li>
             <li><a href="">Bebidas</a></li>
         </ul>
@@ -37,6 +37,7 @@
 
     <!--lista de sabores das pizzas-->
     <div class="box-table">
+        <h1>Bacon - pré tostado</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -44,21 +45,46 @@
                 <th id="th2">Preço</th>
             </thead>
             <tbody>
+            <?php 
+            $nomes = array(
+                "Bacon", "Mussarela", ""
+            );
+
+            $nomes2 = array(
+                'Baiana', 'Portuguesa'
+            );
+
+            $ing = array(
+                'Molho de tomate, mussarela, bacon e ovos', 'Bastante molho, bacon, champignon, catupiry e provolone'
+            );
+
+            $ing2 = array(
+                'Molho de tomate, bacon, catupiry e parmesão', 'Molho de tomate, mussarela, champignon e bacon'
+            );
+
+            $preco = array(
+                'R$ 45,00','R$ 46,00'
+            );
+
+            $preco2 = array(
+                'R$ 46,00','R$ 46,00'
+            );
+            
+            for($i = 0;$i < 2;$i++){ ?>
                 <tr class="tr-light">
-                    <td>Bacon</td>
-                    <td>Molho de tomate, mussarela, bacon e ovos</td>
-                    <td>R$ 45,00</td>
+                    <td><?php echo $nomes[$i] ?></td>
+                    <td><?php echo $ing[$i] ?></td>
+                    <td><?php echo $preco[$i] ?></td>
                 </tr>
+
                 <tr class="tr-dark">
-                    <td>Bacon</td>
-                    <td>Molho de tomate, mussarela, bacon e ovos</td>
-                    <td>R$ 45,00</td>
+                    <td><?php echo $nomes2[$i] ?></td>
+                    <td><?php echo $ing2[$i] ?></td>
+                    <td><?php echo $preco2[$i] ?></td>
                 </tr>
-                <tr class="tr-light">
-                    <td>Bacon</td>
-                    <td>Molho de tomate, mussarela, bacon e ovos</td>
-                    <td>R$ 45,00</td>
-                </tr>
+                <?php
+                    }
+                ?>
             </tbody>
         </table>
     </div>
