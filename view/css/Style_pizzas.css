@@ -1,6 +1,8 @@
 /*FONTES*/
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Namdhinggo:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 *{
     margin: 0;
@@ -92,9 +94,74 @@ header .icons-header i:hover{
     margin: 8px;
 }
 
-/*BANNER E LISTA DE SABORES*/
+/*BANNER E TABELA DE SABORES*/
 .banner{
     width: 100%;
+}
+
+.b2{
+    display: none;
+}
+
+.box-table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+table{
+    padding: 0px;
+    border-collapse: collapse;
+    width: 90%;
+    font-family: 'Nunito';
+    text-align: center;
+    border-radius: 5px;
+}
+
+#th1{
+    border-top-left-radius: 5px;
+}
+
+#th2{
+    border-top-right-radius: 5px;
+}
+
+th{
+    margin: 0px;
+    padding: 20px 10px;
+    text-transform: uppercase; 
+    color: white;
+    background-color: rgb(233, 18, 18);
+}
+
+td{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.tr-light{
+    background-color:rgba(216, 136, 61, 0.753);
+}
+
+.tr-dark{
+    background-color: rgba(216, 136, 61, 0.849);
+}
+
+
+
+/*BANNERS E TABELA DE PIZZAS RESPONSIVIDADE*/
+@media(max-width:999px){
+    .b1{
+        display: none;
+    }
+
+    .b2{
+        margin-top: 17vh;
+        display: block;
+        width: 100%;
+    }
 }
 
 /*MENU RESPONSIVIDADE*/
