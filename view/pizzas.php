@@ -35,7 +35,7 @@
     <img class="banner b2" src="img/banner-sabores-300.png" alt="">
     <!--fim dos banners de sabores das pizzas-->
 
-    <!--lista de sabores das pizzas-->
+    <!--tabela: Bacon - pré tostados-->
     <div class="box-table">
         <h1>Bacon - pré tostado</h1>
         <table>
@@ -47,13 +47,12 @@
             <tbody>
                 <?php 
                     include_once('arrays.php');
-                    for($i = 0;$i < 2;$i++){ ?>
+                    for($i = 0;$i <= 2;$i++){ ?>
                         <tr class="tr-light">
                             <td><?php echo $nomes[$i] ?></td>
                             <td><?php echo $ing[$i] ?></td>
                             <td><?php echo $preco[$i] ?></td>
                         </tr>
-
                         <tr class="tr-dark">
                             <td><?php echo $nomes2[$i] ?></td>
                             <td><?php echo $ing2[$i] ?></td>
@@ -63,6 +62,240 @@
             </tbody>
         </table>
     </div>
+    <!--fim da tabela: Bacon - pré tostados-->
+
+    <!--tabela: Atum de primeira-->
+    <div class="box-table">
+        <h1>Atum de Primeira</h1>
+        <table>
+            <thead>
+                <th id="th1">Nome</th>
+                <th>Ingredientes</th>
+                <th id="th2">Preço</th>
+            </thead>
+            <tbody>
+                <?php 
+                    include_once('arrays.php');
+                    for($i = 0;$i <= 2;$i++){ ?>
+                        <tr class="tr-light">
+                            <td><?php echo $nomes3[$i] ?></td>
+                            <td><?php echo $ing3[$i] ?></td>
+                            <td><?php echo $preco3[$i] ?></td>
+                        </tr>
+                        <tr class="tr-dark">
+                            <td><?php echo $nomes4[$i] ?></td>
+                            <td><?php echo $ing4[$i] ?></td>
+                            <td><?php echo $preco4[$i] ?></td>
+                        </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+    <!--Fim da tabela: Atum de primeira-->
+
+    <!--tabela: Calabresa-->
+    <div class="box-table">
+        <h1>Calabresa</h1>
+        <table>
+            <thead>
+                <th id="th1">Nome</th>
+                <th>Ingredientes</th>
+                <th id="th2">Preço</th>
+            </thead>
+            <tbody>
+                <?php 
+                    include_once('arrays.php');
+                    for($i = 0;$i <= 4;$i++){ ?>
+                        <tr class="tr-light">
+                            <td><?php echo $nomes5[$i] ?></td>
+                            <td><?php echo $ing5[$i] ?></td>
+                            <td><?php echo $preco5[$i] ?></td>
+                        </tr>
+                        <tr class="tr-dark">
+                            <td><?php echo $nomes6[$i] ?></td>
+                            <td><?php echo $ing6[$i] ?></td>
+                            <td><?php echo $preco6[$i] ?></td>
+                        </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+    <!--Fim da tabela: Calabresa-->
+
+    <!--tabela: Presunto-->
+    <div class="box-table">
+        <h1>Presunto</h1>
+        <table>
+            <thead>
+                <th id="th1">Nome</th>
+                <th>Ingredientes</th>
+                <th id="th2">Preço</th>
+            </thead>
+            <tbody>
+                <?php 
+                    include_once('arrays.php');
+                    for($i = 0;$i <= 1;$i++){ ?>
+                        <tr class="tr-light">
+                            <td><?php echo $nomes7[$i] ?></td>
+                            <td><?php echo $ing7[$i] ?></td>
+                            <td><?php echo $preco7[$i] ?></td>
+                        </tr>
+                        <tr class="tr-dark">
+                            <td><?php echo $nomes8[$i] ?></td>
+                            <td><?php echo $ing8[$i] ?></td>
+                            <td><?php echo $preco8[$i] ?></td>
+                        </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+    <!--Fim da tabela: Presunto-->
+
+    <!--tabela: Frango-->
+    <div class="box-table">
+        <h1>Frango</h1>
+        <table>
+            <thead>
+                <th id="th1">Nome</th>
+                <th>Ingredientes</th>
+                <th id="th2">Preço</th>
+            </thead>
+            <tbody>
+                <?php 
+                    include_once('arrays.php');
+                    for($i = 0;$i <= 2;$i++){ ?>
+                        <tr class="tr-light">
+                            <td><?php echo $nomes9[$i] ?></td>
+                            <td><?php echo $ing9[$i] ?></td>
+                            <td><?php echo $preco9[$i] ?></td>
+                        </tr>
+                        <tr class="tr-dark">
+                            <td><?php echo $nomes10[$i] ?></td>
+                            <td><?php echo $ing10[$i] ?></td>
+                            <td><?php echo $preco10[$i] ?></td>
+                        </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+    <!--Fim da tabela: Presunto-->
+
+    <!--tabela: Lombo-->
+    <div class="box-table">
+        <h1>Lombo</h1>
+        <table>
+            <thead>
+                <th id="th1">Nome</th>
+                <th>Ingredientes</th>
+                <th id="th2">Preço</th>
+            </thead>
+            <tbody>
+                <?php 
+                    include_once('arrays.php');
+                    for($i = 0;$i <= 1;$i++){ ?>
+                        <tr class="tr-light">
+                            <td><?php echo $nomes11[$i] ?></td>
+                            <td><?php echo $ing11[$i] ?></td>
+                            <td><?php echo $preco11[$i] ?></td>
+                        </tr>
+                        <tr class="tr-dark">
+                            <td><?php echo $nomes12[$i] ?></td>
+                            <td><?php echo $ing12[$i] ?></td>
+                            <td><?php echo $preco12[$i] ?></td>
+                        </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+    <!--Fim da tabela: Lombo-->
+
+    <!--tabela: Queijo-->
+    <div class="box-table">
+        <h1>Queijo</h1>
+        <table>
+            <thead>
+                <th id="th1">Nome</th>
+                <th>Ingredientes</th>
+                <th id="th2">Preço</th>
+            </thead>
+            <tbody>
+                <?php 
+                    include_once('arrays.php');
+                    for($i = 0;$i <= 3;$i++){ ?>
+                        <tr class="tr-light">
+                            <td><?php echo $nomes13[$i] ?></td>
+                            <td><?php echo $ing13[$i] ?></td>
+                            <td><?php echo $preco13[$i] ?></td>
+                        </tr>
+                        <tr class="tr-dark">
+                            <td><?php echo $nomes14[$i] ?></td>
+                            <td><?php echo $ing14[$i] ?></td>
+                            <td><?php echo $preco14[$i] ?></td>
+                        </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+    <!--Fim da tabela: Queijo-->
+
+    <!--tabela: Legumes / Verduras-->
+    <div class="box-table">
+        <h1>Legumes / Verduras</h1>
+        <table>
+            <thead>
+                <th id="th1">Nome</th>
+                <th>Ingredientes</th>
+                <th id="th2">Preço</th>
+            </thead>
+            <tbody>
+                <?php 
+                    include_once('arrays.php');
+                    for($i = 0;$i <= 5;$i++){ ?>
+                        <tr class="tr-light">
+                            <td><?php echo $nomes15[$i] ?></td>
+                            <td><?php echo $ing15[$i] ?></td>
+                            <td><?php echo $preco15[$i] ?></td>
+                        </tr>
+                        <tr class="tr-dark">
+                            <td><?php echo $nomes16[$i] ?></td>
+                            <td><?php echo $ing16[$i] ?></td>
+                            <td><?php echo $preco16[$i] ?></td>
+                        </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+    <!--Fim da tabela: Legumes / Verduras-->
+
+    <!--tabela: Especialidade-->
+    <div class="box-table">
+        <h1>Legumes / Verduras</h1>
+        <table>
+            <thead>
+                <th id="th1">Nome</th>
+                <th>Ingredientes</th>
+                <th id="th2">Preço</th>
+            </thead>
+            <tbody>
+                <?php 
+                    include_once('arrays.php');
+                    for($i = 0;$i <= 9;$i++){ ?>
+                        <tr class="tr-light">
+                            <td><?php echo $nomes17[$i] ?></td>
+                            <td><?php echo $ing17[$i] ?></td>
+                            <td><?php echo $preco17[$i] ?></td>
+                        </tr>
+                        <tr class="tr-dark">
+                            <td><?php echo $nomes18[$i] ?></td>
+                            <td><?php echo $ing18[$i] ?></td>
+                            <td><?php echo $preco18[$i] ?></td>
+                        </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+    <!--Fim da tabela: Especialidades-->
+
 
     <script src="js/responsividade_menu.js"></script>
 </body>
