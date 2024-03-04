@@ -191,7 +191,7 @@ $ing17 = array(
 $ing18 = array(
     'Molho de tomate, camarão refogado e mussarela',
     'Salame, mussarela e bacon',
-    'Molho de tomate, lombo, palmito, requeijão cheddar cobertos com mussarela e bacon fritos',
+    'Molho de tomate, lombo, palmito, <br> requeijão cheddar cobertos com mussarela e bacon fritos',
     'Carne moída, cebola, mussarela, peperoni e chimichurri',
     'Molho de tomate, peito de peru e mussarela (Opção com Cream Cheese)',
     'Molho de tomate, carne seca desfiada e mussarela (Opção com Cream Cheese)',
@@ -269,9 +269,9 @@ $preco16 = array(
 );
 
 $preco17 = array(
-    'R$ 48,90','R$ 44,90','R$ 48,00','R$ 45,00','R$ 45,00','R$ 46,00'
+    'R$ 50,00','R$ 58,90','R$ 48,00','R$ 49,90','R$ 48,90','R$ 47,00','R$ 60,00','R$ 54,00','R$ 50,00','R$ 49,00'
 );
 
 $preco18 = array(
-    'R$ 43,00','R$ 47,00','R$ 44,00','R$ 39,90','R$ 53,00',''
+    'R$ 59,90','R$ 49,90','R$ 53,00','R$ 55,00','R$ 47,00','R$ 50,00','R$ 48,00','R$ 57,00','R$ 52,00',''
 );

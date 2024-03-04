@@ -269,7 +269,7 @@
 
     <!--tabela: Especialidade-->
     <div class="box-table">
-        <h1>Legumes / Verduras</h1>
+        <h1>Especialidades</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
