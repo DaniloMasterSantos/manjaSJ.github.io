@@ -45,46 +45,21 @@
                 <th id="th2">Preço</th>
             </thead>
             <tbody>
-            <?php 
-            $nomes = array(
-                "Bacon", "Mussarela", ""
-            );
+                <?php 
+                    include_once('arrays.php');
+                    for($i = 0;$i < 2;$i++){ ?>
+                        <tr class="tr-light">
+                            <td><?php echo $nomes[$i] ?></td>
+                            <td><?php echo $ing[$i] ?></td>
+                            <td><?php echo $preco[$i] ?></td>
+                        </tr>
 
-            $nomes2 = array(
-                'Baiana', 'Portuguesa'
-            );
-
-            $ing = array(
-                'Molho de tomate, mussarela, bacon e ovos', 'Bastante molho, bacon, champignon, catupiry e provolone'
-            );
-
-            $ing2 = array(
-                'Molho de tomate, bacon, catupiry e parmesão', 'Molho de tomate, mussarela, champignon e bacon'
-            );
-
-            $preco = array(
-                'R$ 45,00','R$ 46,00'
-            );
-
-            $preco2 = array(
-                'R$ 46,00','R$ 46,00'
-            );
-            
-            for($i = 0;$i < 2;$i++){ ?>
-                <tr class="tr-light">
-                    <td><?php echo $nomes[$i] ?></td>
-                    <td><?php echo $ing[$i] ?></td>
-                    <td><?php echo $preco[$i] ?></td>
-                </tr>
-
-                <tr class="tr-dark">
-                    <td><?php echo $nomes2[$i] ?></td>
-                    <td><?php echo $ing2[$i] ?></td>
-                    <td><?php echo $preco2[$i] ?></td>
-                </tr>
-                <?php
-                    }
-                ?>
+                        <tr class="tr-dark">
+                            <td><?php echo $nomes2[$i] ?></td>
+                            <td><?php echo $ing2[$i] ?></td>
+                            <td><?php echo $preco2[$i] ?></td>
+                        </tr>
+                <?php } ?>
             </tbody>
         </table>
     </div>
