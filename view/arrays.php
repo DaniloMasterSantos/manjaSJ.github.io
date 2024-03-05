@@ -72,6 +72,14 @@ $nomes18 = array(
     'Camarão','Salabacon','Do Chefe','Premium','Peito de Peru com mussarela','Carne Seca','Strogonoff Frango','Costela 2','Doritos Especial',''
 );
 
+$nomes17 = array(
+    'Dutra','Bela Vista','Satelite'
+);
+
+$nomes18 = array(
+    'Veliros','Vila São José',''
+);
+
 
 //ingredientes das pizzas
 $ing = array(
@@ -201,6 +209,18 @@ $ing18 = array(
     ''
 );
 
+$ing19 = array(
+    'Molho de tomate, peito de peru, palmito emussarela',
+    'Molho de tomate, presunto, ovos, cebola, catupiry, mussarela ou cheedar',
+    'Molho de tomate, mussarela, peperone, azeitonas s/ caroço e catupiry'
+);
+
+$ing20 = array(
+    'Molho de tomate, camarão, champignon, catupiry e parmesão',
+    'champignon, milho e palmito',
+    ''
+);
+
 
 
 //preços das pizzas
@@ -274,4 +294,12 @@ $preco17 = array(
 
 $preco18 = array(
     'R$ 59,90','R$ 49,90','R$ 53,00','R$ 55,00','R$ 47,00','R$ 50,00','R$ 48,00','R$ 57,00','R$ 52,00',''
+);
+
+$preco19 = array(
+    'R$ 49,00','R$ 49,00','R$ 53,00'
+);
+
+$preco20 = array(
+    'R$ 61,00','R$ 47,00',''
 );

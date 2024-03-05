@@ -296,6 +296,35 @@
     </div>
     <!--Fim da tabela: Especialidades-->
 
+    <!--tabela: Pizzas do Bairro-->
+    <div class="box-table">
+        <h1>Especialidades</h1>
+        <table>
+            <thead>
+                <th id="th1">Nome</th>
+                <th>Ingredientes</th>
+                <th id="th2">Preço</th>
+            </thead>
+            <tbody>
+                <?php 
+                    include_once('arrays.php');
+                    for($i = 0;$i <= 9;$i++){ ?>
+                        <tr class="tr-light">
+                            <td><?php echo $nomes19[$i] ?></td>
+                            <td><?php echo $ing19[$i] ?></td>
+                            <td><?php echo $preco19[$i] ?></td>
+                        </tr>
+                        <tr class="tr-dark">
+                            <td><?php echo $nomes20[$i] ?></td>
+                            <td><?php echo $ing20[$i] ?></td>
+                            <td><?php echo $preco20[$i] ?></td>
+                        </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+    <!--Fim da tabela: Pizzas do Bairro-->
+
 
     <script src="js/responsividade_menu.js"></script>
 </body>
