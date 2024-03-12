@@ -65,19 +65,27 @@ $nomes16 = array(
 );
 
 $nomes17 = array(
-    'Peperone','Golden','Americana','Búfala','Peito de Peru Light','Fiorentina','Picanha','Costela','Doritos','Bolonhesa Especial'
+    'Peperone','Golden','Americana','Búfala','Peito de Peru Light','Fiorentina','Picanha','Costela','Doritos','Bolonhesa Especial','Rústica Especial'
 );
 
 $nomes18 = array(
-    'Camarão','Salabacon','Do Chefe','Premium','Peito de Peru com mussarela','Carne Seca','Strogonoff Frango','Costela 2','Doritos Especial',''
+    'Camarão','Salabacon','Do Chefe','Premium','Peito de Peru com mussarela','Carne Seca','Strogonoff Frango','Costela 2','Doritos Especial','Rústica',''
 );
 
-$nomes17 = array(
+$nomes19 = array(
     'Dutra','Bela Vista','Satelite'
 );
 
-$nomes18 = array(
+$nomes20 = array(
     'Veliros','Vila São José',''
+);
+
+$nomes21 = array(
+    'Banana','Banana e chocolate','Romeu e Julieta',"M&M'S",'Kit Kat','Ovomaltine'
+);
+
+$nomes22 = array(
+    'Banana e Paçoca','Brigadeiro','Sensação','Nutella','Leite Ninho','Bis'
 );
 
 
@@ -89,18 +97,18 @@ $ing = array(
 );
 
 $ing2 = array(
-    'Bastante molho, bacon, champignon, catupiry e provolone',
+    'Molho de tomate, bacon, champignon, catupiry e provolone',
     'Molho de tomate, mussarela, champignon e bacon', ""
 );
 
 $ing3 = array(
-    'Batante Mlho, atum, cebola e orégano',
+    'Molho de tomate, atum, cebola e orégano',
     'Molho de tomate, mussarela, anchovas, orégano',
     'Molho de tomate, presunto, atum, ovos, cebola, e mussarela'
 );
 
 $ing4 = array(
-    'Bastante molho, anchovas, alho frito, parmesão e orégano',
+    'Molho de tomate, anchovas, alho frito, parmesão e orégano',
     'Molho de tomate, atum, cebola, e mussarela ou catupiry',
     'Molho de tomate, atum, cebola, palmito e mussarela'
 );
@@ -108,8 +116,8 @@ $ing4 = array(
 $ing5 = array(
     'Molho de tomate, Calabresa fatiada com cebola',
     'Molho de tomate, calabresa moída, ovos, cebola, molho de pimenta e mussarela',
-    'Bastante molho, calabresa fatiada, catupiry e parmesão',
-    'Bastante molho, calabresa, cebola e mussarela',
+    'Molho de tomate, calabresa fatiada, catupiry e parmesão',
+    'Molho de tomate, calabresa, cebola e mussarela',
     'Molho de tomate, calabresa moída apimentada, bacon e catupiry'
 );
 
@@ -133,13 +141,13 @@ $ing8 = array(
 $ing9 = array(
     'Molho de tomate, frango desfiado, catupiry e parmesão <br> (opção com cream cheese)',
     'Molho de tomate, frango desfiado, milho e catupiry legítimo',
-    'Frango, calabresa, mussarela e bacon'
+    'Molho de tomate, frango, calabresa, mussarela e bacon'
 );
 
 $ing10 = array(
     'Molho de tomate, frango desfiado e catupiry legítimo',
-    'Bastante molho, frango desfiado, champignon, catupiry e parmesão',
-    'Bastante molho, frango desfiado, champignon, bacon e mussarela'
+    'Molho de tomate, frango desfiado, champignon, catupiry e parmesão',
+    'Molho de tomate, frango desfiado, champignon, bacon e mussarela'
 );
 
 $ing11 = array(
@@ -148,14 +156,14 @@ $ing11 = array(
 );
 
 $ing12 = array(
-    'Bastante molho, lombinho, catupiry, mussarela e parmesão',''
+    'Molho de tomate, lombinho, catupiry, mussarela e parmesão',''
 );
 
 $ing13 = array(
     'Molho de tomate e catupiry legítimo',
-    'Molho, mussarela e tomate em fatias e parmesão',
+    'Molho de tomate, mussarela e tomate em fatias e parmesão',
     'Molho de tomate, catupiry e mussarela',
-    'Bastante molho, mussarela, catupiry, provolone e parmesão <br> (opção com gorgonzola ou Cream Cheese)'
+    'Molho de tomate, mussarela, catupiry, provolone e parmesão <br> (opção com gorgonzola ou Cream Cheese)'
 );
 
 $ing14 = array(
@@ -166,7 +174,7 @@ $ing14 = array(
 );
 
 $ing15 = array(
-    'Mussarela, abobrinha fatiada, alho frito, parmesão e chimichurri',
+    'Molho de tomate, mussarela, abobrinha fatiada, alho frito, parmesão e chimichurri',
     'Molho de tomate, escarola ao alho e óleo e mussarela',
     'Molho de tomate, escarola, bacon e mussarela ou catupiry',
     'Molho de tomate, palmito, rodelas de tomate e mussarela',
@@ -176,130 +184,158 @@ $ing15 = array(
 
 $ing16 = array(
     'Molho de tomate, mussarela e bastante alho torrado',
-    'Bastante molho, escarola, anchovas e mussarela',
+    'Molho de tomate, escarola, anchovas e mussarela',
     'Molho de tomate, champignon, alho torrado e mussarela',
     'Molho de tomate, mussarela e milho verde',
-    'Mussarela, brócoles, cream cheese, tomate, abobrinha, alho poró e parmesão',
+    'Molho de tomate, mussarela, brócoles, cream cheese, tomate, abobrinha, alho poró e parmesão',
     ''
 );
 
 $ing17 = array(
     'Molho de tomate, mussarela, peperone e parmesão',
-    'Presunto, catupiry, mussarela e parmesão',
+    'Molho de tomate, presunto, catupiry, mussarela e parmesão',
     'Molho de tomate, ervilha, palmito, bacon, ovos, catupiry e mussarela',
     'Molho de tomate, mussarela de búfula, rúcula e tomate seco',
     'Molho de tomate, peito de peru, rodelas de tomate, champignon e catupiry',
     'Molho de tomate, presunto, palmito, azeitonas s/ caroço e mussarela',
     'Molho de tomate, picanha defumada, catupiry e mussarela',
-    'Costela desfiada ao molho barbecue, mussarela ou catupiry',
-    'Doritos, bacon e mussarela',
-    'Carne, moída, batata palha, catupiry e mussarela'
+    'Molho de tomate, costela desfiada ao molho barbecue, mussarela ou catupiry',
+    'Molho de tomate, Doritos, bacon e mussarela',
+    'Molho de tomate, carne moída, batata palha, catupiry e mussarela',
+    'Molho de tomate, batata Chips, bacon, cheddar e mussarela'
 );
 
 $ing18 = array(
     'Molho de tomate, camarão refogado e mussarela',
-    'Salame, mussarela e bacon',
+    'Molho de tomate, salame, mussarela e bacon',
     'Molho de tomate, lombo, palmito, <br> requeijão cheddar cobertos com mussarela e bacon fritos',
-    'Carne moída, cebola, mussarela, peperoni e chimichurri',
+    'Molho de tomate, carne moída, cebola, mussarela, peperoni e chimichurri',
     'Molho de tomate, peito de peru e mussarela (Opção com Cream Cheese)',
     'Molho de tomate, carne seca desfiada e mussarela (Opção com Cream Cheese)',
-    'Frango, Creme de leite, champignon, mussarela e batata palha',
-    'Costela desfiada, cebola, ovos, catupiry, mussarela e molho barbecue',
-    'Doritos, cheddar, bacon e mussarela',
+    'Molho de tomate, frango, Creme de leite, champignon, mussarela e batata palha',
+    'Molho de tomate, costela desfiada, cebola, ovos, catupiry, mussarela e molho barbecue',
+    'Molho de tomate, Doritos, cheddar, bacon e mussarela',
+    'Molho de tomate, batata Chips, bacon e cream cheese',
     ''
 );
 
 $ing19 = array(
-    'Molho de tomate, peito de peru, palmito emussarela',
+    'Molho de tomate, peito de peru, palmito e mussarela',
     'Molho de tomate, presunto, ovos, cebola, catupiry, mussarela ou cheedar',
     'Molho de tomate, mussarela, peperone, azeitonas s/ caroço e catupiry'
 );
 
 $ing20 = array(
     'Molho de tomate, camarão, champignon, catupiry e parmesão',
-    'champignon, milho e palmito',
+    'Molho de tomate, champignon, milho, palmito e mussarela',
     ''
+);
+
+$ing21 = array(
+    'Bananas fatiadas, leite condensado e canela',
+    'Bananas fatiadas e chocolate',
+    'Saboroso creme de goiaba e mussarela',
+    "Chocolate ao leite e confete tipo M&M's",
+    'Chocolate ao leite com kit kat <br>(Também com opção de sonho de valsa, não terá acréscimo nenhum)',
+    'Chocolate ao leite e flocos de ovomaltine',
+);
+
+$ing22 = array(
+    'Bananas fatiadas, leite condensado e farofa doce',
+    'Chocolate ao leite tipo Garoto e granulado',
+    'Chocolate com morango',
+    'Banana ou morango, nutella e castanha moída',
+    'Chocolate ao Leite, morango e leite ninho',
+    'Chocolate ao leite e Bis branco'
 );
 
 
 
 //preços das pizzas
 $preco = array(
-    'R$ 45,00','R$ 46,00', 'R$ 47,90'
+    'R$ 47,00','R$ 48,00', 'R$ 50,00'
 );
 
 $preco2 = array(
-    'R$ 46,00','R$ 46,00', ""
+    'R$ 48,00','R$ 48,00', ""
 );
 
 $preco3 = array(
-    'R$ 45,00','R$ 45,00', 'R$ 48,00'
+    'R$ 47,00','R$ 47,00', 'R$ 50,00'
 );
 
 $preco4 = array(
-    'R$ 45,00','R$ 47,00', 'R$ 48,00'
+    'R$ 47,00','R$ 49,00', 'R$ 50,00'
 );
 
 $preco5 = array(
-    'R$ 39,90','R$ 45,00', 'R$ 46,00', 'R$ 45,00', 'R$ 46,00'
+    'R$ 40,00','R$ 47,00', 'R$ 48,00', 'R$ 47,00', 'R$ 48,00'
 );
 
 $preco6 = array(
-    'R$ 39,90','R$ 45,90', 'R$ 49,90','R$ 45,00',''
+    'R$ 40,00','R$ 48,00', 'R$ 52,00','R$ 47,00',''
 );
 
 $preco7 = array(
-    'R$ 45,00','R$ 46,00'
+    'R$ 47,00','R$ 45,00'
 );
 
 $preco8 = array(
-    'R$ 45,00','R$ 45,00'
+    'R$ 48,00','R$ 47,00'
 );
 
 $preco9 = array(
-    'R$ 45,00','R$ 47,00','R$ 49,00'
+    'R$ 47,00','R$ 49,00','R$ 51,00'
 );
 
 $preco10 = array(
-    'R$ 50,00','R$ 48,00','R$ 49,00'
+    'R$ 52,00','R$ 50,00','R$ 51,00'
 );
 
 $preco11 = array(
-    'R$ 44,00','R$ 48,00'
+    'R$ 45,00','R$ 50,00'
 );
 
 $preco12 = array(
-    'R$ 48,00',''
+    'R$ 50,00',''
 );
 
 $preco13 = array(
-    'R$ 39,90','R$ 39,90','R$ 45,00','R$ 49,00'
+    'R$ 42,00','R$ 40,00','R$ 45,00','R$ 51,00'
 );
 
 $preco14 = array(
-    'R$ 43,00','R$ 39,90','R$ 47,00',''
+    'R$ 45,00','R$ 40,00','R$ 49,00',''
 );
 
 $preco15 = array(
-    'R$ 48,90','R$ 44,90','R$ 48,00','R$ 45,00','R$ 45,00','R$ 46,00'
+    'R$ 50,00','R$ 45,00','R$ 50,00','R$ 45,00','R$ 47,00','R$ 48,00'
 );
 
 $preco16 = array(
-    'R$ 43,00','R$ 47,00','R$ 44,00','R$ 39,90','R$ 53,00',''
+    'R$ 45,00','R$ 49,00','R$ 45,00','R$ 40,00','R$ 55,00',''
 );
 
 $preco17 = array(
-    'R$ 50,00','R$ 58,90','R$ 48,00','R$ 49,90','R$ 48,90','R$ 47,00','R$ 60,00','R$ 54,00','R$ 50,00','R$ 49,00'
+    'R$ 52,00','R$ 60,90','R$ 50,00','R$ 52,00','R$ 51,00','R$ 49,00','R$ 62,00','R$ 56,00','R$ 52,00','R$ 51,00','R$ 51,00'
 );
 
 $preco18 = array(
-    'R$ 59,90','R$ 49,90','R$ 53,00','R$ 55,00','R$ 47,00','R$ 50,00','R$ 48,00','R$ 57,00','R$ 52,00',''
+    'R$ 62,00','R$ 52,00','R$ 55,00','R$ 57,00','R$ 49,00','R$ 52,00','R$ 50,00','R$ 59,00','R$ 54,00','R$ 51,00',''
 );
 
 $preco19 = array(
-    'R$ 49,00','R$ 49,00','R$ 53,00'
+    'R$ 51,00','R$ 51,00','R$ 55,00'
 );
 
 $preco20 = array(
-    'R$ 61,00','R$ 47,00',''
+    'R$ 63,00','R$ 49,00',''
+);
+
+$preco21 = array(
+    'R$ 40,00','R$ 47,00','R$ 47,00','R$ 49,00','R$ 53,00','R$ 51,00'
+);
+
+$preco22 = array(
+    'R$ 46,00','R$ 45,00','R$ 48,00','R$ 55,00','R$ 49,00','R$ 47,00'
 );
