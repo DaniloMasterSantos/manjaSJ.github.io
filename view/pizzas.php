@@ -32,7 +32,8 @@
 
     <!--banners de sabores das pizzas-->
     <img class="banner b1" src="img/banner-sabores.png" alt="">
-    <img class="banner b2" src="img/banner-sabores-300.png" alt="">
+    <img class="banner b2" src="img/banner-sabores-1080.jpg" alt="">
+    <img class="banner b3" src="img/banner-sabores-300.png" alt="">
     <!--fim dos banners de sabores das pizzas-->
 
     <!--Links Internos-->

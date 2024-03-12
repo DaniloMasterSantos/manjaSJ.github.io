@@ -104,6 +104,10 @@ header .icons-header i:hover{
     display: none;
 }
 
+.b3{
+    display: none;
+}
+
 .box-links{
     max-width: 100%;
     display: flex;
@@ -304,9 +308,10 @@ header ul.active{
 
 /*BANNERS E TABELA DE PIZZAS RESPONSIVIDADE*/
 @media(max-width:999px){
-    .b1{
+    .b1, .b3{
         display: none;
     }
+
 
     .b2{
         margin-top: 17vh;
@@ -337,6 +342,16 @@ header ul.active{
         width: 90%;
         margin-top: 20px;
         font-size: 23px;
+    }
+}
+
+@media(max-width:500px){
+    .b1, .b2{
+        display: none;
+    }
+    .b3{
+        margin-top: 15vh;
+        display: block;
     }
 }
 
