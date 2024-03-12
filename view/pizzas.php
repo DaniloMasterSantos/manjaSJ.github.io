@@ -35,9 +35,24 @@
     <img class="banner b2" src="img/banner-sabores-300.png" alt="">
     <!--fim dos banners de sabores das pizzas-->
 
+    <!--Links Internos-->
+    <div class='box-links'>
+        <a href="#atum">Atum</a>
+        <a href="#calabresa">Calabresa</a>
+        <a href="#presunto">Presunto</a>
+        <a href="#frango">Frango</a>
+        <a href="#lombo">Lombo</a>
+        <a href="#queijo">Queijos</a>
+        <a href="#legumes">Legumes</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#bairro">Do Bairro</a>
+        <a href="#doces">Doces</a>
+    </div>
+    <!--Links Internos-->
+
     <!--tabela: Bacon - pré tostados-->
     <div class="box-table">
-        <h1>Bacon - pré tostado</h1>
+        <h1 id="bacon">Bacon - pré tostado</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -66,7 +81,7 @@
 
     <!--tabela: Atum de primeira-->
     <div class="box-table">
-        <h1>Atum de Primeira</h1>
+        <h1 id="atum">Atum de Primeira</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -95,7 +110,7 @@
 
     <!--tabela: Calabresa-->
     <div class="box-table">
-        <h1>Calabresa</h1>
+        <h1 id='calabresa'>Calabresa</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -124,7 +139,7 @@
 
     <!--tabela: Presunto-->
     <div class="box-table">
-        <h1>Presunto</h1>
+        <h1 id="presunto">Presunto</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -153,7 +168,7 @@
 
     <!--tabela: Frango-->
     <div class="box-table">
-        <h1>Frango</h1>
+        <h1 id="frango">Frango</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -182,7 +197,7 @@
 
     <!--tabela: Lombo-->
     <div class="box-table">
-        <h1>Lombo</h1>
+        <h1 id="lombo">Lombo</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -211,7 +226,7 @@
 
     <!--tabela: Queijo-->
     <div class="box-table">
-        <h1>Queijo</h1>
+        <h1 id="queijo">Queijo</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -240,7 +255,7 @@
 
     <!--tabela: Legumes / Verduras-->
     <div class="box-table">
-        <h1>Legumes / Verduras</h1>
+        <h1 id="legumes">Legumes / Verduras</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -269,7 +284,7 @@
 
     <!--tabela: Especialidade-->
     <div class="box-table">
-        <h1>Especialidades</h1>
+        <h1 id="especialidades">Especialidades</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -298,7 +313,7 @@
 
     <!--tabela: Pizzas do Bairro-->
     <div class="box-table">
-        <h1>Pizzas do bairro</h1>
+        <h1 id="bairro">Pizzas do bairro</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -327,7 +342,7 @@
 
     <!--tabela: Pizzas Doces-->
     <div class="box-table">
-        <h1>Pizzas Doces</h1>
+        <h1 id="doces">Pizzas Doces</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -353,6 +368,17 @@
         </table>
     </div>
     <!--Fim da tabela: Pizzas Doces-->
+
+    <!--Footer-->
+    <footer>
+        <a href="../index.html"><img src="img/logo.png" alt="Logo"></a>
+        <div class="icons-footer">
+            <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+    <!--Fim do Footer-->
 
 
     <script src="js/responsividade_menu.js"></script>
