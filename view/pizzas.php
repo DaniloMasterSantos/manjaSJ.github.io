@@ -279,7 +279,7 @@
             <tbody>
                 <?php 
                     include_once('arrays.php');
-                    for($i = 0;$i <= 9;$i++){ ?>
+                    for($i = 0;$i <= 10;$i++){ ?>
                         <tr class="tr-light">
                             <td><?php echo $nomes17[$i] ?></td>
                             <td><?php echo $ing17[$i] ?></td>
@@ -298,7 +298,7 @@
 
     <!--tabela: Pizzas do Bairro-->
     <div class="box-table">
-        <h1>Especialidades</h1>
+        <h1>Pizzas do bairro</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
@@ -308,7 +308,7 @@
             <tbody>
                 <?php 
                     include_once('arrays.php');
-                    for($i = 0;$i <= 9;$i++){ ?>
+                    for($i = 0;$i <= 2;$i++){ ?>
                         <tr class="tr-light">
                             <td><?php echo $nomes19[$i] ?></td>
                             <td><?php echo $ing19[$i] ?></td>
@@ -324,6 +324,35 @@
         </table>
     </div>
     <!--Fim da tabela: Pizzas do Bairro-->
+
+    <!--tabela: Pizzas Doces-->
+    <div class="box-table">
+        <h1>Pizzas Doces</h1>
+        <table>
+            <thead>
+                <th id="th1">Nome</th>
+                <th>Ingredientes</th>
+                <th id="th2">Preço</th>
+            </thead>
+            <tbody>
+                <?php 
+                    include_once('arrays.php');
+                    for($i = 0;$i <= 5;$i++){ ?>
+                        <tr class="tr-light">
+                            <td><?php echo $nomes21[$i] ?></td>
+                            <td><?php echo $ing21[$i] ?></td>
+                            <td><?php echo $preco21[$i] ?></td>
+                        </tr>
+                        <tr class="tr-dark">
+                            <td><?php echo $nomes22[$i] ?></td>
+                            <td><?php echo $ing22[$i] ?></td>
+                            <td><?php echo $preco22[$i] ?></td>
+                        </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+    <!--Fim da tabela: Pizzas Doces-->
 
 
     <script src="js/responsividade_menu.js"></script>
