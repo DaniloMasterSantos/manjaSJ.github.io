@@ -69,6 +69,32 @@
     </div>
     <!--fim da tabela: esfihas salgadas-->
 
+    <!--tabela: esfihas doces-->
+    <div class="box-table">
+        <h1 id="doces">Esfihas Doces</h1>
+        <table>
+            <thead>
+                <th id="th1">Nome</th>
+                <th id="th2">Preço</th>
+            </thead>
+            <tbody>
+                <?php 
+                    include_once('arrays_esfihas.php');
+                    for($i = 0;$i <= 5;$i++){ ?>
+                        <tr class="tr-light">
+                            <td><?php echo $nomes3[$i] ?></td>
+                            <td><?php echo $precos3[$i] ?></td>
+                        </tr>
+                        <tr class="tr-dark">
+                            <td><?php echo $nomes4[$i] ?></td>
+                            <td><?php echo $precos4[$i] ?></td>
+                        </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+    <!--fim da tabela: esfihas doces-->
+
     <!--Footer-->
     <footer>
         <a href="../index.html"><img src="img/logo.png" alt="Logo"></a>
