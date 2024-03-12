@@ -17,8 +17,8 @@
             <div class="line3"></div>
         </div>
         <ul class="list-header">
-            <li><a href="">Pizzas</a></li>
-            <li><a href="teste.php">Esfihas</a></li>
+            <li><a href="#">Pizzas</a></li>
+            <li><a href="esfihas.php">Esfihas</a></li>
             <li><a href="">Beirutes</a></li>
             <li><a href="">Bebidas</a></li>
         </ul>
