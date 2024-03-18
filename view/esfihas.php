@@ -31,7 +31,7 @@
     <!--fim do header-->
 
     <!--banners de sabores das esfihas-->
-    <img class="banner b1" src="img/banner-sabores.png" alt="">
+    <img class="banner b1" src="img/banner-sabores-ef.png" alt="">
     <img class="banner b2" src="img/banner-sabores-1080.jpg" alt="">
     <img class="banner b3" src="img/banner-sabores-300.png" alt="">
     <!--fim dos banners de sabores das esfihas-->
