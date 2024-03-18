@@ -31,9 +31,9 @@
     <!--fim do header-->
 
     <!--banners de sabores dos beirutes-->
-    <img class="banner b1" src="img/banner-sabores.png" alt="">
-    <img class="banner b2" src="img/banner-sabores-1080.jpg" alt="">
-    <img class="banner b3" src="img/banner-sabores-300.png" alt="">
+    <img class="banner b1" src="img/banner-sabores-rf.png" alt="">
+    <img class="banner b2" src="img/banner-sabores-rf-1080.png" alt="">
+    <img class="banner b3" src="img/banner-sabores-rf-300.png" alt="">
     <!--fim dos banners de sabores dos beirutes-->
 
     <!--Todas as bebidas-->
