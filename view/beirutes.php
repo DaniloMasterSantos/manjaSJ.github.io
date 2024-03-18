@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="css/Style_esfihas.css" rel="stylesheet">
+    <link href="css/Style_beirutes.css" rel="stylesheet">
     <title>Pizzas</title>
 </head>
 <body>
@@ -30,70 +30,40 @@
     </header>
     <!--fim do header-->
 
-    <!--banners de sabores das esfihas-->
+    <!--banners de sabores dos beirutes-->
     <img class="banner b1" src="img/banner-sabores.png" alt="">
     <img class="banner b2" src="img/banner-sabores-1080.jpg" alt="">
     <img class="banner b3" src="img/banner-sabores-300.png" alt="">
-    <!--fim dos banners de sabores das esfihas-->
+    <!--fim dos banners de sabores dos beirutes-->
 
-    <!--Links Internos-->
-    <div class='box-links'>
-        <a href="#salgadas">Salgadas</a>
-        <a href="#doces">Doces</a>
-    </div>
-    <!--Links Internos-->
-
-    <!--tabela: esfihas salgadas-->
+    <!--tabela: Beirutes-->
     <div class="box-table">
-        <h1 id="salgadas">Esfihas Salgadas</h1>
+        <h1 id="salgadas">Beirutes</h1>
         <table>
             <thead>
                 <th id="th1">Nome</th>
-                <th id="th2">Preço</th>
+                <th id="th2">Ingredientes</th>
+                <th id="th3">Preço</th>
             </thead>
             <tbody>
                 <?php 
-                    include_once('arrays_esfihas.php');
-                    for($i = 0;$i <= 16;$i++){ ?>
+                    include_once('arrays_beirutes.php');
+                    for($i = 0;$i <= 6;$i++){ ?>
                         <tr class="tr-light">
                             <td><?php echo $nomes1[$i] ?></td>
+                            <td><?php echo $ing1[$i] ?></td>
                             <td><?php echo $precos1[$i] ?></td>
                         </tr>
                         <tr class="tr-dark">
                             <td><?php echo $nomes2[$i] ?></td>
+                            <td><?php echo $ing2[$i] ?></td>
                             <td><?php echo $precos2[$i] ?></td>
                         </tr>
                 <?php } ?>
             </tbody>
         </table>
     </div>
-    <!--fim da tabela: esfihas salgadas-->
-
-    <!--tabela: esfihas doces-->
-    <div class="box-table">
-        <h1 id="doces">Esfihas Doces</h1>
-        <table>
-            <thead>
-                <th id="th1">Nome</th>
-                <th id="th2">Preço</th>
-            </thead>
-            <tbody>
-                <?php 
-                    include_once('arrays_esfihas.php');
-                    for($i = 0;$i <= 5;$i++){ ?>
-                        <tr class="tr-light">
-                            <td><?php echo $nomes3[$i] ?></td>
-                            <td><?php echo $precos3[$i] ?></td>
-                        </tr>
-                        <tr class="tr-dark">
-                            <td><?php echo $nomes4[$i] ?></td>
-                            <td><?php echo $precos4[$i] ?></td>
-                        </tr>
-                <?php } ?>
-            </tbody>
-        </table>
-    </div>
-    <!--fim da tabela: esfihas doces-->
+    <!--fim da tabela: Beirutes-->
 
     <!--Footer-->
     <footer>
