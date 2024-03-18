@@ -17,10 +17,10 @@
             <div class="line3"></div>
         </div>
         <ul class="list-header">
-            <li><a href="#">Pizzas</a></li>
+            <li><a href="pizzas.php">Pizzas</a></li>
             <li><a href="esfihas.php">Esfihas</a></li>
-            <li><a href="">Beirutes</a></li>
-            <li><a href="">Bebidas</a></li>
+            <li><a href="beirutes.php">Beirutes</a></li>
+            <li><a href="bebidas.php">Bebidas</a></li>
         </ul>
         <div class="icons-header">
             <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
