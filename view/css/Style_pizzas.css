@@ -9,6 +9,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     background-color: rgb(238, 231, 231);
     scroll-behavior:smooth;
@@ -98,6 +102,7 @@ header .icons-header i:hover{
 /*BANNER, LINKS E TABELA DE SABORES*/
 .banner{
     width: 100%;
+    display: none;
 }
 
 .b2{
@@ -116,6 +121,7 @@ header .icons-header i:hover{
     align-items: center;
     height: 100%;
     text-align: center;
+    margin-top: 20px;
 }
 
 .box-links a{
@@ -315,13 +321,13 @@ header ul.active{
 
     .b2{
         margin-top: 17vh;
-        display: block;
+        display: none;
         width: 100%;
     }
 
     .box-links{
         margin-bottom: 5vh;
-        margin-top: 20px;
+        margin-top: 20vh;
         height: 100%;
     }
 
@@ -351,7 +357,11 @@ header ul.active{
     }
     .b3{
         margin-top: 15vh;
-        display: block;
+        display: none;
+    }
+
+    .box-links{
+        margin-top: 20vh;
     }
 }
 
