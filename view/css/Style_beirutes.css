@@ -98,6 +98,7 @@ header .icons-header i:hover{
 /*BANNER, LINKS E TABELA DE SABORES*/
 .banner{
     width: 100%;
+    display: none;
 }
 
 .b2{
@@ -350,7 +351,7 @@ header ul.active{
     }
     .b3{
         margin-top: 15vh;
-        display: block;
+        display: none;
     }
 }
 

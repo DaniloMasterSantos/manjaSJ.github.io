@@ -98,6 +98,7 @@ header .icons-header i:hover{
 /*BANNER, LINKS E BEBIDAS*/
 .banner{
     width: 100%;
+    display: none;
 }
 
 .b2{
@@ -289,7 +290,7 @@ header ul.active{
 
     .b2{
         margin-top: 17vh;
-        display: block;
+        display: none;
         width: 100%;
         margin-bottom: 2vh;
     }
